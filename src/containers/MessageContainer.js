@@ -17,7 +17,7 @@ class MessageContainer extends Component {
           name: 'Message board is online!',
           author: 'Tony'
         }
-      ];
+      ]
     }
   }
 
