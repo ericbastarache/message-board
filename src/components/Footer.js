@@ -1,5 +1,5 @@
 import React from "react";
-import { elementType } from 'react-prop-types';
+import PropTypes from 'prop-types';
 
 const Footer = 	({ footerText }) => {
 	return (
