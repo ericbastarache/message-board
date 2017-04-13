@@ -7,8 +7,8 @@ class App extends Component {
   render() {
     return (
       <div>
-        <Header />
-        <Footer />
+        <Header headerText="Message Board Application"/>
+        <Footer footerText="Copyright 2017"/>
       </div>
     );
   }
