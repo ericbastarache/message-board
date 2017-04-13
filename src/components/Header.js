@@ -4,8 +4,8 @@ import PropTypes from 'prop-types';
 const Header = 	({ headerText }) => {
 	return (
 		<div>
-			<hr></hr>
 			<p>{ headerText }</p>
+			<hr></hr>
 		</div>
 	)
 }

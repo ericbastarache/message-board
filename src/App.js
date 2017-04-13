@@ -8,6 +8,7 @@ class App extends Component {
     return (
       <div>
         <Header headerText="Message Board Application"/>
+				<br /><p>This is a homepage</p><br />
         <Footer footerText="Copyright 2017"/>
       </div>
     );
