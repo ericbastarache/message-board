@@ -1,13 +1,6 @@
 import React, { Component } from "react";
-import ReactDOM from "react-dom"
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
-<<<<<<< HEAD
-import Router from "./router"
-
-ReactDOM.render(
-  document.getElementById("root")
-)
-=======
 class App extends Component {
   render() {
     return (
@@ -25,4 +18,3 @@ class App extends Component {
 }
 
 export default App;
->>>>>>> 92d96b43df7144f77b74873f8ff401a9808446f5

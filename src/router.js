@@ -16,3 +16,19 @@ export default (
 
 	</Router>
 )
+
+/* App.js currently
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+<Router>
+	<div>
+		<div>
+			<Header headerText="Message Board Application"/>
+			<br /><p>This is a homepage</p><br />
+			<Footer footerText="Copyright 2017"/>
+		</div>
+	</div>
+	<Route exact path="/" component={Home} />
+	<Route path="/messages" component={MessageContainer} />
+</Router>
+
+*/
