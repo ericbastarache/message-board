@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Index from './components/home';
+import Test from './components/test';
 
 class App extends Component {
   render() {
@@ -12,7 +13,8 @@ class App extends Component {
         <div>
           <div>
             <Header headerText="Message Board Application"/>
-						<Index />
+						<Route exact path="/" component={Index} />
+            <Route path="/messages" component={Test} />
             <Footer footerText="Copyright 2017"/>
           </div>
         </div>
