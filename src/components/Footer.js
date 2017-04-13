@@ -1,5 +1,3 @@
-"use strict";
-
 import React from "react";
 
 const Footer = 	({ footerText }) => {
@@ -15,4 +13,4 @@ Footer.propTypes = {
 	footerText: React.propTypes.string;
 }
 
-export default.Footer;
+export default Footer;

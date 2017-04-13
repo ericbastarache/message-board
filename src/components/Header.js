@@ -1,5 +1,3 @@
-"use strict";
-
 import React from "react";
 
 const Header = 	({ headerText }) => {
@@ -15,4 +13,4 @@ Header.propTypes = {
 	headerText: React.propTypes.string
 }
 
-export default.Header;
+export default Header;
