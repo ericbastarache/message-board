@@ -5,7 +5,10 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <Header />
+      <div>
+        <Header />
+        <Footer />
+      </div>
     );
   }
 }
