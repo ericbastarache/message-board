@@ -9,17 +9,17 @@ class App extends Component {
     return (
       <Router>
         <div>
-      <div>
-        <Header headerText="Message Board Application"/>
-				<br /><p>This is a homepage</p><br />
-        <Footer footerText="Copyright 2017"/>
-      </div>
+          <div>
+            <Header headerText="Message Board Application"/>
+            <br /><p>This is a homepage</p><br />
+            <Footer footerText="Copyright 2017"/>
+          </div>
 
-        <div>
-          <Header headerText="Message Board Application"/>
-          <Footer footerText="Copyright 2017"/>
+          <div>
+            <Header headerText="Message Board Application"/>
+            <Footer footerText="Copyright 2017"/>
+          </div>
         </div>
-      </div>
       </Router>
     );
   }
