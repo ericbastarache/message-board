@@ -3,16 +3,16 @@
 import React from "react";
 
 const Footer = 	({ footerText }) => {
-	return {
+	return (
 		<div>
 			<hr>
 			<p>{ footerText }</p>
 		</div>
-	}
+	)
 }
 
 Footer.propTypes = {
-	footerText: React.propTypes.string
+	footerText: React.propTypes.string;
 }
 
 export default.Footer;

@@ -3,12 +3,12 @@
 import React from "react";
 
 const Header = 	({ headerText }) => {
-	return {
+	return (
 		<div>
 			<hr>
 			<p>{ headerText }</p>
 		</div>
-	}
+	)
 }
 
 Header.propTypes = {
