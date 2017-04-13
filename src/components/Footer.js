@@ -1,4 +1,4 @@
-import React from "react";
+import React, { PropTypes } from "react";
 
 const Footer = 	({ footerText }) => {
 	return (
@@ -10,7 +10,7 @@ const Footer = 	({ footerText }) => {
 }
 
 Footer.propTypes = {
-	footerText: React.propTypes.string;
+	footerText: PropTypes.string
 }
 
 export default Footer;
