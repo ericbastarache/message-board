@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-
 class MessageContainer extends Component {
   constructor (props) {
     super(props);
@@ -21,11 +20,10 @@ class MessageContainer extends Component {
     }
   }
 
-
-
   render () {
     return (
 
+      
     );
   }
 }
