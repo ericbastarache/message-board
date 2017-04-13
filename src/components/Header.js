@@ -5,7 +5,7 @@ import React from "react";
 const Header = 	({ headerText }) => {
 	return (
 		<div>
-			<hr>
+			<hr></hr>
 			<p>{ headerText }</p>
 		</div>
 	)

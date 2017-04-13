@@ -5,7 +5,7 @@ import React from "react";
 const Footer = 	({ footerText }) => {
 	return (
 		<div>
-			<hr>
+			<hr></hr>
 			<p>{ footerText }</p>
 		</div>
 	)
