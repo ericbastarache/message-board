@@ -1,6 +1,10 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Index from './components/home';
+
 class App extends Component {
   render() {
     return (
@@ -8,7 +12,7 @@ class App extends Component {
         <div>
           <div>
             <Header headerText="Message Board Application"/>
-            <br /><p>This is a homepage</p><br />
+						<Index />
             <Footer footerText="Copyright 2017"/>
           </div>
         </div>
